@@ -8,19 +8,20 @@
  */
 int main(void)
 {
-srand(time(NULL));
-int n = rand() % RAND_MAX - RAND_MAX / 2;
+int 0;
 
-printf("%d ", n);
-
-if (n > 0) {
-printf("is positive\n");
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+{
+printf("%d is positive\n", n);
 }
-else if (n == 0) {
-printf("is zero\n");
+else if (n == 0)
+{
+printf("%d is zero\n", n);
 }
-else {
-printf("is negative\n");
+else
+printf("%d is negative\n", n);
 }
 return (0);
 }
